@@ -1,4 +1,0 @@
-/Users/sagivdaniel/Desktop/ALTERMANS/altermansMob/PortableLibrary/obj/Release/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
-/Users/sagivdaniel/Desktop/ALTERMANS/altermansMob/PortableLibrary/bin/Release/PortableLibrary.dll
-/Users/sagivdaniel/Desktop/ALTERMANS/altermansMob/PortableLibrary/obj/Release/PortableLibrary.dll
-/Users/sagivdaniel/Desktop/ALTERMANS/altermansMob/PortableLibrary/bin/Release/FluentValidation.dll

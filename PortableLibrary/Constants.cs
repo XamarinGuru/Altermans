@@ -3,35 +3,33 @@ namespace PortableLibrary
 {
 	public static class Constants
 	{
-		public const string GOHEJA_BASEPATH = "http://go-heja.com/Service1.svc?wsdl";
-
-		public const string FIREBASE_APPSECRET = "PtLxxW6zYGZSE3UXmmiFxVCqzNdZOLxLNHdHNixF";
-		public const string FIREBASE_BASEPATH = "https://nitro-8cbda.firebaseio.com/";
-
 		public const string GOOGLE_MAP_API_KEY = "AIzaSyAiBwRUm_KZDv_sp3eI7F8hxkePqDTvY20";
 		public const int MAP_ZOOM_LEVEL = 15;
 
-		public const string CALENDAR_TITLE = "500WATT Calendar";
+		#region specification for each group
+		public const string SPEC_GROUP_TYPE = "lamdan" ;
+		public const string DEVICE_CALENDAR_TITLE = "Altermans Calendar";
+		public const string GROUP_COLOR = "F8EB61";
+		public const string PATH_USER_IMAGE = "data/goheja.Altermans.com/files/me.png";
+		public const string MSG_SIGNUP_FAIL = "You are not registered to Altermans services.";
+		#endregion
+
+		public const string GOHEJA_BASEPATH = "http://go-heja.com/Service1.svc?wsdl";
 
 		//URLs
-		public const string URL_TERMS = "http://go-heja.com:8080/nitro/terms.php/";
+		public const string URL_TERMS = "http://go-heja.com/nitro/terms.php/";
 		public const string URL_EVENT_MAP = "http://go-heja.com/nitro/calenPage.php?name={0}&startdate={1}&user={2}";
 		public const string URL_ANALYTICS_MAP = "http://go-heja.com:8080/nitro/mobongoing.php?txt={0}";
 		public const string URL_CALENDAR = "http://go-heja.com/nitro/mobda.php?userNickName={0}&userId={1}";
 		public const string URL_WATCH = "http://go-heja.com:8080/gh/mob/sync.php?userId={0}&mog={1}&url=uurrll";
 		public const string URL_GAUGE = "http://go-heja.com:8080/innovi/mobGraph/totalGauge.php?userId={0}";
-
 		public const string URL_GOOGLE = "www.google.com";
-
-		//public static string[] SPEC_GROUP_TYPE = { "innovi" };
-		public static string[] SPEC_GROUP_TYPE = { "fivewa" };
 
 		public static double[] LOCATION_ISURAEL = { 31.0461, 34.8516 };
 
 		public const string MSG_LOGIN = "Login...";
 		public const string MSG_LOGIN_FAIL = "Login failed.";
 		public const string MSG_SIGNUP = "Sign Up...";
-		public const string MSG_SIGNUP_FAIL = "You are not registered to 500WATT services.";
 		public const string MSG_LOADING_DATA = "Loading data...";
 		public const string MSG_LOADING_USER_DATA = "Loading user data...";
 		public const string MSG_LOADING_EVENTS = "Loading events...";
@@ -48,6 +46,8 @@ namespace PortableLibrary
 		public const string MSG_FORGOT_PASSWORD = "Requesting forgot password...";
 		public const string MSG_FORGOT_PW_SUC = "A mail was sent to you with a temporary code.";
 		public const string MSG_FORGOT_PW_EMAIL_FAIL = "Email do not exists in the system , please try again or signup.";
+		public const string MSG_GPS_DISABLED = "GPS settings disabled.";
+		public const string MSG_COMFIRM_STOP_SPORT_COMP = "You sure you want to stop practice?";
 
 		//TYPES
 		public const string TOTALS_ES_TIME = "Elapsed time";
