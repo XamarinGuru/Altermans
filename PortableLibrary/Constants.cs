@@ -7,7 +7,7 @@ namespace PortableLibrary
 		public const int MAP_ZOOM_LEVEL = 15;
 
 		#region specification for each group
-		public const string SPEC_GROUP_TYPE = "lamdan" ;
+		public const string SPEC_GROUP_TYPE = "altermans" ;
 		public const string DEVICE_CALENDAR_TITLE = "Altermans Calendar";
 		public const string GROUP_COLOR = "F8EB61";
 		public const string PATH_USER_IMAGE = "data/goheja.Altermans.com/files/me.png";
@@ -17,7 +17,7 @@ namespace PortableLibrary
 		public const string GOHEJA_BASEPATH = "http://go-heja.com/Service1.svc?wsdl";
 
 		//URLs
-		public const string URL_TERMS = "http://go-heja.com/nitro/terms.php/";
+		public const string URL_TERMS = "http://go-heja.com/general/terms.html";
 		public const string URL_EVENT_MAP = "http://go-heja.com/nitro/calenPage.php?name={0}&startdate={1}&user={2}";
 		public const string URL_ANALYTICS_MAP = "http://go-heja.com:8080/nitro/mobongoing.php?txt={0}";
 		public const string URL_CALENDAR = "http://go-heja.com/nitro/mobda.php?userNickName={0}&userId={1}";

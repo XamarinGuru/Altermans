@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{7E904771-5A56-4C70-88F8-67D14558069C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AltermansAndroid/Resources/values/style.xml">
+﻿<Properties StartupConfiguration="{3EAADAD5-605D-4D6A-9E8C-90EADC2539E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortableLibrary/Constants.cs">
     <Files>
       <File FileName="AltermansiOS/Info.plist" />
-      <File FileName="PortableLibrary/Constants.cs" Line="15" Column="13" />
+      <File FileName="PortableLibrary/Constants.cs" Line="10" Column="51" />
       <File FileName="AltermansiOS/AppDelegate.cs" Line="9" Column="19" />
       <File FileName="AltermansAndroid/Properties/AndroidManifest.xml" Line="21" Column="12" />
       <File FileName="AltermansAndroid/Activities/AnalyticsActivity.cs" Line="21" Column="33" />
@@ -17,6 +17,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.252427A2-616C-4126-A155-DFD2184662B6" />
-  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.56.101:5555" />
   <MultiItemStartupConfigurations />
 </Properties>
