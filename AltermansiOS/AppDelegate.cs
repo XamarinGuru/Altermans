@@ -21,7 +21,8 @@ namespace location2
 
 		EKCalendar goHejaCalendar = null;
 
-		public override UIWindow Window {
+		public override UIWindow Window
+		{
 			get;
 			set;
 		}
@@ -207,7 +208,7 @@ namespace location2
 				var strDuration = durHrs.ToString() + ":" + durMin.ToString("D2");
 
 				newEvent.Notes += Environment.NewLine + "Planned HB : " + goHejaEvent.hb + Environment.NewLine +
-								"Planned TSS : " + goHejaEvent.tss + Environment.NewLine +
+								"Planned Load : " + goHejaEvent.tss + Environment.NewLine +
 								"Planned distance : " + formattedDistance + "KM" + Environment.NewLine +
 								"Duration : " + strDuration + Environment.NewLine;
 
@@ -234,14 +235,14 @@ namespace location2
 		}
 
 
-		
-		public override void WillEnterForeground (UIApplication application)
+
+		public override void WillEnterForeground(UIApplication application)
 		{
 			// Called as part of the transiton from background to active state.
 			// Here you can undo many of the changes made on entering the background.
 		}
 
-		public override void OnActivated (UIApplication application)
+		public override void OnActivated(UIApplication application)
 		{
 			// Restart any tasks that were paused (or not yet started) while the application was inactive. 
 			// If the application was previously in the background, optionally refresh the user interface.
