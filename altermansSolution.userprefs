@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{7E904771-5A56-4C70-88F8-67D14558069C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortableLibrary/XuniLicense.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AltermansAndroid/Fragment/FragmentCalendar.cs">
     <Files>
-      <File FileName="PortableLibrary/Constants.cs" Line="14" Column="13" />
-      <File FileName="PortableLibrary/XuniLicense.cs" Line="62" Column="3" />
-      <File FileName="AltermansiOS/Controllers/CalendarHomeViewController.cs" Line="97" Column="1" />
-      <File FileName="AltermansiOS/Controllers/EventInstructionController.cs" Line="1" Column="1" />
-      <File FileName="AltermansAndroid/Fragment/FragmentProfile.cs" Line="1" Column="1" />
+      <File FileName="AltermansAndroid/Activities/CoachAthletesBySubGroupActivity.cs" Line="24" Column="4" />
+      <File FileName="AltermansAndroid/Fragment/FragmentCalendar.cs" Line="6" Column="22" />
+      <File FileName="AltermansAndroid/Activities/SplashActivity.cs" Line="8" Column="23" />
+      <File FileName="AltermansAndroid/Activities/EventCalendarActivity.cs" Line="9" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,7 +12,8 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.48AF6607-B824-4854-85B8-054A62EF8D49" />
-  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.888C5A63-FDE1-4A44-92AD-0DD2DFC3E20C" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.56.101:5555" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Nitro.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
 </Properties>
