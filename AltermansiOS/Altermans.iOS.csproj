@@ -43,7 +43,7 @@
     <AssemblyName>Nitro</AssemblyName>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignProvision>d970fc16-49d2-4cef-b3c7-6044aededa9d</CodesignProvision>
+    <CodesignProvision>Altermans-pro</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>
@@ -447,6 +447,13 @@
     <BundleResource Include="Resources\icon_circle_red.png" />
     <BundleResource Include="Resources\icon_no_avatar.png" />
     <BundleResource Include="Resources\icon_search.png" />
+    <BundleResource Include="Resources\splash_new_black.png" />
+    <BundleResource Include="Resources\icon_athlete_black.png" />
+    <BundleResource Include="Resources\icon_other_black.png" />
+    <BundleResource Include="Resources\icon_run_black.png" />
+    <BundleResource Include="Resources\icon_swim_black.png" />
+    <BundleResource Include="Resources\icon_triathlon_black.png" />
+    <BundleResource Include="Resources\icon_bike_black.png" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References" />

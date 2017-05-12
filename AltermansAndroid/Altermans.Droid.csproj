@@ -365,6 +365,12 @@
     <AndroidResource Include="Resources\layout\CoachSubGroupsActivity.axml" />
     <AndroidResource Include="Resources\layout\CoachAthletesBySubGroupActivity.axml" />
     <AndroidResource Include="Resources\drawable\icon_circle_empty.png" />
+    <AndroidResource Include="Resources\drawable\icon_athlete_black.png" />
+    <AndroidResource Include="Resources\drawable\icon_bike_black.png" />
+    <AndroidResource Include="Resources\drawable\icon_other_black.png" />
+    <AndroidResource Include="Resources\drawable\icon_run_black.png" />
+    <AndroidResource Include="Resources\drawable\icon_swim_black.png" />
+    <AndroidResource Include="Resources\drawable\splash_new_black.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

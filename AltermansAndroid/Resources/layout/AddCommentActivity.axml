@@ -61,7 +61,7 @@
             <Button
                 android:text="SAVE"
                 android:id="@+id/ActionAddComment"
-                android:textColor="#ffffff"
+                android:textColor="#ff000000"
                 android:background="#ffe5a109"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

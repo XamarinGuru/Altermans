@@ -54,7 +54,7 @@ namespace location2
 		void ActionSearch(object sender, EventArgs e)
 		{
 			(tableView.Source as UsersTableViewSource).PerformSearch((sender as UITextField).Text);
-			tableView.ReloadData();
+			tableView.ReloadData();  
 		}
 
 		partial void ActionGoToGroup(UIButton sender)

@@ -6,8 +6,8 @@ using SDWebImage;
 
 namespace location2
 {
-	public partial class UserCell : UITableViewCell
-	{
+    public partial class UserCell : UITableViewCell
+    {
 		public static readonly NSString Key = new NSString("UserCell");
 		public static readonly UINib Nib;
 
@@ -92,5 +92,5 @@ namespace location2
 			imgPhoto.Layer.BorderWidth = 1;
 			imgPhoto.Layer.BorderColor = UIColor.Gray.CGColor;
 		}
-	}
+    }
 }

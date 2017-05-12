@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using CoreGraphics;
+using PortableLibrary;
 using UIKit;
 
 namespace location2
@@ -49,6 +51,17 @@ namespace location2
 			tabNavVC.View.BackgroundColor = UIColor.Clear;
 			tabNavVC.NavigationBar.BackgroundColor = UIColor.Clear;
 			tabNavVC.NavigationBar.ShadowImage = new UIImage();
+
+            if (AppSettings.CurrentUser.userType == (int)Constants.USER_TYPE.COACH && vcIdentifier == "CalendarHomeViewController")
+            {
+                var leftButton = NavLeftButton();
+                leftButton.TouchUpInside += (sender, e) => NavigationController.PopViewController(true);
+                tabVC.NavigationItem.LeftBarButtonItem = new UIBarButtonItem(leftButton);
+            }
+            else
+            {
+                tabVC.NavigationItem.LeftBarButtonItem = null;
+            }
 
 			subControllers.Add(tabNavVC);
 
