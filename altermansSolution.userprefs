@@ -1,22 +1,27 @@
-﻿<Properties StartupConfiguration="{7E904771-5A56-4C70-88F8-67D14558069C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AltermansAndroid/Activities/LoginActivity.cs">
+﻿<Properties StartupConfiguration="{3EAADAD5-605D-4D6A-9E8C-90EADC2539E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortableLibrary/Constants.cs">
     <Files>
-      <File FileName="AltermansAndroid/Resources/values/style.xml" Line="3" Column="1" />
-      <File FileName="AltermansAndroid/Activities/CoachHomeActivity.cs" Line="57" Column="1" />
-      <File FileName="AltermansAndroid/Activities/LoginActivity.cs" Line="159" Column="5" />
-      <File FileName="AltermansAndroid/Fragment/FragmentCalendar.cs" Line="1" Column="1" />
-      <File FileName="AltermansAndroid/Activities/ChangePasswordActivity.cs" Line="28" Column="59" />
-      <File FileName="AltermansAndroid/Activities/InitActivity.cs" Line="36" Column="34" />
-      <File FileName="AltermansAndroid/Activities/ForgotPasswordActivity.cs" Line="1" Column="1" />
+      <File FileName="AltermansiOS/Info.plist" />
+      <File FileName="PortableLibrary/Constants.cs" Line="10" Column="51" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="altermansSolution" expanded="True">
+            <Node name="Altermans.iOS" expanded="True" selected="True" />
+            <Node name="PortableLibrary" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.48AF6607-B824-4854-85B8-054A62EF8D49" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Nitro.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
 </Properties>

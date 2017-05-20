@@ -22,12 +22,12 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Distribution: sagiv daniel (ACS2X6ERDY)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <AssemblyName>location2</AssemblyName>
     <MtouchLink>SdkOnly</MtouchLink>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchFastDev>false</MtouchFastDev>
-    <CodesignProvision>13ee1643-685d-4282-af2a-6a2ec56c155c</CodesignProvision>
+    <CodesignProvision></CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
@@ -43,14 +43,14 @@
     <AssemblyName>Nitro</AssemblyName>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchFloat32>true</MtouchFloat32>
-    <CodesignProvision>Altermans-pro</CodesignProvision>
+    <CodesignProvision>Wild-pro</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>i386, x86_64</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <MtouchLink>Full</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
