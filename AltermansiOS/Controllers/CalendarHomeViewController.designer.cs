@@ -1,6 +1,6 @@
 // WARNING
 //
-// This file has been generated automatically by Xamarin Studio from the outlets and
+// This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
 // Manual changes to this file will not be maintained.
 //
@@ -14,10 +14,6 @@ namespace location2
     [Register ("CalendarHomeViewController")]
     partial class CalendarHomeViewController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton btnBack { get; set; }
-
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton btnCycleColleps { get; set; }
@@ -194,10 +190,6 @@ namespace location2
         [GeneratedCode ("iOS Designer", "1.0")]
         location2.RangeSliderControl zoomSlider { get; set; }
 
-        [Action ("ActionBack:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void ActionBack (UIKit.UIButton sender);
-
         [Action ("ActionCollect:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void ActionCollect (UIKit.UIButton sender);
@@ -208,11 +200,6 @@ namespace location2
 
         void ReleaseDesignerOutlets ()
         {
-            if (btnBack != null) {
-                btnBack.Dispose ();
-                btnBack = null;
-            }
-
             if (btnCycleColleps != null) {
                 btnCycleColleps.Dispose ();
                 btnCycleColleps = null;

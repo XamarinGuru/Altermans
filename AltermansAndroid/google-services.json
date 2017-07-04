@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "350216744640",
+    "firebase_url": "https://altermans-11ed4.firebaseio.com",
+    "project_id": "altermans-11ed4",
+    "storage_bucket": "altermans-11ed4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350216744640:android:6b4c36b81656c8a4",
+        "android_client_info": {
+          "package_name": "goheja.gohejaaltermans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350216744640-854v5hka6khnaa39oedlrinhv6ssjkh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTnGaJc9w6KEEisi-SVpVSfGzCTPbZtnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

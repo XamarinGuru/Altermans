@@ -1,26 +1,15 @@
 ﻿<Properties StartupConfiguration="{3EAADAD5-605D-4D6A-9E8C-90EADC2539E6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PortableLibrary/Constants.cs">
     <Files>
-      <File FileName="AltermansiOS/Info.plist" />
-      <File FileName="PortableLibrary/Constants.cs" Line="10" Column="51" />
+      <File FileName="PortableLibrary/Constants.cs" Line="13" Column="54" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="altermansSolution" expanded="True">
-            <Node name="Altermans.iOS" expanded="True" selected="True" />
-            <Node name="PortableLibrary" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.48AF6607-B824-4854-85B8-054A62EF8D49" />
+  <MonoDevelop.Ide.ItemProperties.Altermans.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0E79D5F6-1CA6-423F-875A-5293549D30F0" />
   <MonoDevelop.Ide.ItemProperties.Altermans.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Nitro.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />

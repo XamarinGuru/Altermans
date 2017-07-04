@@ -193,41 +193,41 @@ namespace goheja
 			// aapt resource value: 0x7f0100b6
 			public const int activeColor = 2130772150;
 			
-			// aapt resource value: 0x7f0100a0
-			public const int ahBarColor = 2130772128;
+			// aapt resource value: 0x7f0100a3
+			public const int ahBarColor = 2130772131;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int ahBarLength = 2130772139;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int ahBarWidth = 2130772138;
 			
 			// aapt resource value: 0x7f0100a8
-			public const int ahBarLength = 2130772136;
+			public const int ahCircleColor = 2130772136;
 			
 			// aapt resource value: 0x7f0100a7
-			public const int ahBarWidth = 2130772135;
+			public const int ahDelayMillis = 2130772135;
 			
-			// aapt resource value: 0x7f0100a5
-			public const int ahCircleColor = 2130772133;
+			// aapt resource value: 0x7f0100a9
+			public const int ahRadius = 2130772137;
 			
 			// aapt resource value: 0x7f0100a4
-			public const int ahDelayMillis = 2130772132;
+			public const int ahRimColor = 2130772132;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int ahRimWidth = 2130772133;
 			
 			// aapt resource value: 0x7f0100a6
-			public const int ahRadius = 2130772134;
+			public const int ahSpinSpeed = 2130772134;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int ahText = 2130772128;
 			
 			// aapt resource value: 0x7f0100a1
-			public const int ahRimColor = 2130772129;
+			public const int ahTextColor = 2130772129;
 			
 			// aapt resource value: 0x7f0100a2
-			public const int ahRimWidth = 2130772130;
-			
-			// aapt resource value: 0x7f0100a3
-			public const int ahSpinSpeed = 2130772131;
-			
-			// aapt resource value: 0x7f01009d
-			public const int ahText = 2130772125;
-			
-			// aapt resource value: 0x7f01009e
-			public const int ahTextColor = 2130772126;
-			
-			// aapt resource value: 0x7f01009f
-			public const int ahTextSize = 2130772127;
+			public const int ahTextSize = 2130772130;
 			
 			// aapt resource value: 0x7f0100b1
 			public const int alwaysActive = 2130772145;
@@ -649,14 +649,14 @@ namespace goheja
 			// aapt resource value: 0x7f0100af
 			public const int maxThumbHidden = 2130772143;
 			
-			// aapt resource value: 0x7f0100a9
-			public const int minTextSize = 2130772137;
+			// aapt resource value: 0x7f01009d
+			public const int minTextSize = 2130772125;
 			
 			// aapt resource value: 0x7f0100ae
 			public const int minThumbHidden = 2130772142;
 			
-			// aapt resource value: 0x7f0100aa
-			public const int precision = 2130772138;
+			// aapt resource value: 0x7f01009e
+			public const int precision = 2130772126;
 			
 			// aapt resource value: 0x7f010097
 			public const int riv_border_color = 2130772119;
@@ -700,8 +700,8 @@ namespace goheja
 			// aapt resource value: 0x7f0100b0
 			public const int showRangeLabels = 2130772144;
 			
-			// aapt resource value: 0x7f0100ab
-			public const int sizeToFit = 2130772139;
+			// aapt resource value: 0x7f01009f
+			public const int sizeToFit = 2130772127;
 			
 			// aapt resource value: 0x7f0100c1
 			public const int stepValue = 2130772161;
@@ -2984,9 +2984,9 @@ namespace goheja
 			
 			public static int[] AutofitTextView = new int[]
 			{
-					2130772137,
-					2130772138,
-					2130772139};
+					2130772125,
+					2130772126,
+					2130772127};
 			
 			// aapt resource value: 0
 			public const int AutofitTextView_minTextSize = 0;
@@ -3568,9 +3568,6 @@ namespace goheja
 			
 			public static int[] ProgressWheel = new int[]
 			{
-					2130772125,
-					2130772126,
-					2130772127,
 					2130772128,
 					2130772129,
 					2130772130,
@@ -3579,7 +3576,10 @@ namespace goheja
 					2130772133,
 					2130772134,
 					2130772135,
-					2130772136};
+					2130772136,
+					2130772137,
+					2130772138,
+					2130772139};
 			
 			// aapt resource value: 3
 			public const int ProgressWheel_ahBarColor = 3;
